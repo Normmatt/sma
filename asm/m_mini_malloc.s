@@ -1,3 +1,6 @@
+.include "asm/macros.inc"
+
+.syntax unified
 
 
 	THUMB_FUNC_START sub_80B422C
