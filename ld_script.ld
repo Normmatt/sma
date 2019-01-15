@@ -20,6 +20,21 @@ SECTIONS
 	ALIGN(4)
 	{
 		asm/crt0.o(.text);
+        asm/main.o(.text);
+        asm/sub_8000C04.o(.text);
+        asm/sub_8006C70.o(.text);
+        asm/sub_80092A8.o(.text);
+        asm/sub_800955C.o(.text);
+        asm/sub_800A460.o(.text);
+        asm/sub_800AB54.o(.text);
+        asm/sub_800AF30.o(.text);
+        asm/sub_800BC74.o(.text);
+        asm/sub_800C808.o(.text);
+        asm/sub_800D498.o(.text);
+        asm/sub_800EEAC.o(.text); /* rodata 080B9A9C */
+        asm/sub_800F584.o(.text); /* rodata 080B9B18 */
+        asm/sub_8010B38.o(.text); /* rodata 080B9B38 */
+        asm/sub_8010E2C.o(.text); /* rodata 080B9B60 */
         asm/code.o(.text);
 
         /* Data */
